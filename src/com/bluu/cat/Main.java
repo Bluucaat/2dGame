@@ -8,7 +8,7 @@ public class Main {
         JFrame gameWindow = new JFrame();
         gameWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gameWindow.setResizable(true);
-        gameWindow.setTitle("Bluuland");
+        gameWindow.setTitle("NYAdventure!");
 
 
         GamePanel gamePanel = new GamePanel();
