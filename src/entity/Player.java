@@ -7,7 +7,6 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.Objects;
 
 public class Player extends Entity {
 
@@ -129,6 +128,6 @@ public class Player extends Entity {
             case "idleLeft" -> image = left1;
             case "idleRight" -> image = right1;
         }
-        g2.drawImage(image, x, y, gp.tileSize * 2, gp.tileSize * 2, null);
+        g2.drawImage(image, x, y, gp.tileSize, gp.tileSize, null);
     }
 }
